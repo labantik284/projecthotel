@@ -1,0 +1,90 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fda4a4;
+}
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* Section styling */
+.kamar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+/* Kamar card */
+.kamar-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.kamar-card:hover {
+  transform: translateY(-10px);
+}
+
+.kamar-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.kamar-card h2 {
+  font-size: 1.5em;
+  margin: 15px;
+  color: #444;
+}
+
+.kamar-card p {
+  margin: 0 15px 20px;
+  font-size: 1.1em;
+  color: #888;
+}
+
+/* Button styling */
+.btn {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 0 auto 20px;
+  padding: 12px;
+  text-align: center;
+  background-color: #ff0008;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #fc3639;
+  transform: scale(1.05);
+}
+
+.container-kontak {
+  margin-top: 20px;
+}
+
+#kamar {
+  padding: 6rem;
+}
